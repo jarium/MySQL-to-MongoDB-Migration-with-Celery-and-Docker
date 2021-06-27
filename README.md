@@ -10,9 +10,9 @@ For mongodb, you will have to put in your mongodb connnection link inside the "t
 
 ## Example MySQL Database Creation(Importing)
 
-1) The database file i exported is located in:     C:\Users\USER\Desktop\MySQL-to-Mongo\testdatabase.sql
+1) The example database file i exported is located in:     C:\Users\USER\Desktop\MySQL-to-Mongo\testdatabase.sql
 
-2) With this command below, you can import databases to our mysql server running in docker. The path to your database could be different.
+2) With this command below, you can import databases to our mysql server running in docker. The path to your database could be different. Cd into the folder of your sql file, then use this command:
 
    docker exec -i mysql-to-mongo_mysql_db_1 mysql -uroot -proot testdatabase < testdatabase.sql
 
